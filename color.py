@@ -4,7 +4,7 @@ def askuser(question):
     answer = input(question+' ')
     return answer
 
-# Colors function
+# Colors function - Comment Test
 def colorgame():
     color = askuser("I'm going to rate colors, name a color.").lower()
     print('Loading', end=' ')
